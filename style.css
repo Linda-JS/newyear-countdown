@@ -1,16 +1,17 @@
 body {
+  margin: 90px;
   background-color: rgb(58, 18, 59);
   text-align: center;
 }
 
 #h1 {
   text-align: center;
-  color: rgb(241, 14, 14);
   font-style: italic;
   font-family: "Courier New", Courier, monospace;
   font-size: 70px;
   text-shadow: rgb(181, 182, 181) 0.1em 0.1em 0.15em;
-  animation: text 3s infinite forwards;
+  animation: text 3s infinite forwards ease-in-out;
+  color: #c6e2ff;
 }
 
 #snow {
@@ -25,7 +26,7 @@ body {
 #countdown {
   text-align: center;
   font-size: 50px;
-  color: floralwhite;
   text-shadow: rgb(181, 182, 181) 0.1em 0.1em 0.15em;
   animation: timer 2s infinite;
+  color: #c6e2ff;
 }
